@@ -89,7 +89,7 @@ namespace Log4Net.Demystifier
             _log.Error(message);
 
         public void Error(object message, Exception exception) =>
-            _log.Error(message);
+            _log.Error(message, exception.Demystify());
 
         public void ErrorFormat(string format, params object[] args) =>
             _log.ErrorFormat(format, args);
