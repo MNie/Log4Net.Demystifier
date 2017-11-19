@@ -16,4 +16,4 @@ For example in StructureMap:
 For<ILog>().Use(DemystifiedLogManager.GetLogger("AppLogger"));
 ```
 
-Demystify log manager would wrap your logger via demystifier logger.
+Demystify log manager would wrap your logger via demystified logger.
