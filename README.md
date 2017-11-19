@@ -1,4 +1,4 @@
-# Log4Net.Demystifier
+# Log4Net.Demystifier [![NuGet Pre Release](https://buildstats.info/nuget/Log4Net.Demystifier?includePreReleases=true)](https://www.nuget.org/packages/Log4Net.Demystifier)
 Unmangle the names of async and iterator methods in exception stack traces using @benaadams's [Demystifier](https://github.com/benaadams/Ben.Demystifier) via custom LogManager which wraps your ILog.
 
 # How to install/Configure?
