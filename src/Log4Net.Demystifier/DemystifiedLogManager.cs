@@ -8,6 +8,10 @@ namespace Log4Net.Demystifier
     {
         public static ILog GetLogger(string repository, string name) =>
             CreateDemystifiedLogger(LogManager.GetLogger(repository, name));
+#if NET462
+        public static ILog GetLogger(string name) =>
+            CreateDemystifiedLogger(LogManager.GetLogger(name));
+#endif
         public static ILog GetLogger(Assembly repositoryAssembly, Type type) =>
             CreateDemystifiedLogger(LogManager.GetLogger(repositoryAssembly, type));
         public static ILog GetLogger(string repository, Type type) =>
