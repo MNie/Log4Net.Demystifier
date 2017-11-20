@@ -9,26 +9,24 @@
     <PackageReleaseNotes>First release</PackageReleaseNotes>
     <Copyright>Copyright 2017 (c) Michal Niegrzybowski. All rights reserved.</Copyright>
     <PackageTags>Log4Net, Demystifier, Demystifing, VisualStudio</PackageTags>
-    <Version>0.0.3</Version>
+    <Version>0.0.4</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/MNie/Log4Net.Demystifier</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/MNie/Log4Net.Demystifier/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MNie/Log4Net.Demystifier</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>0.0.3.0</AssemblyVersion>
-    <FileVersion>0.0.3.0</FileVersion>
+    <AssemblyVersion>0.0.4.0</AssemblyVersion>
+    <FileVersion>0.0.4.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
     <PackageReference Include="Ben.Demystifier" Version="0.0.5" />
     <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="System.ValueTuple" Version="4.4.0" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
     <PackageReference Include="Ben.Demystifier" Version="0.0.5" />
     <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="System.ValueTuple" Version="4.4.0" />
   </ItemGroup>
 
 </Project>
