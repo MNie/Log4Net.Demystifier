@@ -31,6 +31,10 @@ You have to:
 ```
 2. Delete packages.config from your project and uninstall all packages
 3. Install all packages one more time
+
+    [Here is a short snippet how to translate packages.config to single line `Install-Packages` command](https://gist.github.com/MNie/35f43e66e68d300510ca3a6c308d06fd)
+    
+    
 4. If you encounter such error: `error : The project.json is referencing the project 'YourProject.csproj', but an output path was not specified on an item in the ProjectReferencesCreatingPackages property.` you have to update Visual Studio to > 15.2
 5. If you project linking a file from packages folder like this:
 ```xml
