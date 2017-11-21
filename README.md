@@ -20,7 +20,7 @@ Demystify log manager would wrap your logger via demystified logger.
 
 # Troubleshooting
 
-If you encounter problem in old csproj based project(s), because of [referencing .net standard library to a .net framework base project](https://github.com/dotnet/standard/issues/410).
+If you encounter problem in old csproj based project(s), because of [referencing .net standard library to a .net framework based project](https://github.com/dotnet/standard/issues/410).
 You have to:
 1. add `RestoreProjectStyle` element to csproj
 
