@@ -20,12 +20,12 @@
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard2.0' ">
-    <PackageReference Include="Ben.Demystifier" Version="0.0.5" />
+    <PackageReference Include="Ben.Demystifier" Version="0.1.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net462' ">
-    <PackageReference Include="Ben.Demystifier" Version="0.0.5" />
+    <PackageReference Include="Ben.Demystifier" Version="0.1.0" />
     <PackageReference Include="log4net" Version="2.0.8" />
   </ItemGroup>
 
